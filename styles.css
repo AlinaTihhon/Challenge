@@ -34,6 +34,7 @@ body {
     border: 3px solid black;
 }
 
+
 .LightSalmon {
 border-radius: 50%;
 background-color: #FFA07A;
@@ -185,6 +186,7 @@ a::after {
   .alpha {
     color: hsla(34, 100%, 50%, 0.7);
   }
+
   .Josefin {
     text-align: center;
     background-color: #CD5C5C;
