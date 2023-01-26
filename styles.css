@@ -1,0 +1,302 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  max-width: 75vw;
+}
+
+.midground, .foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  margin: 15vh 0 0 15vw;
+  padding: 0;
+  width: 35vw;
+  height: 59vh;
+}
+
+body {
+  background-color: #f7e0e0;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.try {
+    border: 3px solid black;
+}
+
+.LightSalmon {
+border-radius: 50%;
+background-color: #FFA07A;
+text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 100px;
+        margin-right: 900px;
+    
+    
+}
+
+
+
+.Salmon{
+    border-radius: 50%;
+    background-color: #FA8072;
+    text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 200px;
+        margin-right: 800px;
+}
+
+.DarkSalmon {
+    border-radius: 50%;
+background-color: #E9967A;
+text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 300px;
+        margin-right: 700px;
+}
+
+
+.LightCoral {
+    border-radius: 50%;
+    background-color: #F08080;
+    text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 400px;
+        margin-right: 600px;
+}
+
+.IndianRed {
+    border-radius: 50%;
+    background-color: #CD5C5C;
+    text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 500px;
+        margin-right: 500px;
+}
+
+
+.Crimson {
+    border-radius: 50%;
+    background-color: #DC143C;
+    text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 600px;
+        margin-right: 400px;
+}
+
+
+.Red{
+    border-radius: 50%;
+background-color: #FF0000;
+text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 700px;
+        margin-right: 300px;
+}
+
+
+.FireBrick {
+    border-radius: 50%;
+    background-color: #B22222;
+    text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 800px;
+        margin-right: 200px;
+}
+
+
+.DarkRed {
+    border-radius: 50%;
+    background-color: #8B0000;
+    text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 900px;
+        margin-right: 100px;
+}
+
+.breadcrumb li {
+    display: flexbox;
+}
+
+li:hover {
+    background-color: whitesmoke;
+    color: rgb(234, 243, 243);
+}
+
+.link {
+    color: black;
+   
+    
+}
+.breadcrumb a {
+    display: inline;
+    }
+.breadcrumb .link {
+    display: inline;
+}
+
+a::after {
+    font-size: 8px;
+    vertical-align: super;
+    }
+
+  .colors {
+    text-align: center;
+    color:#5c0c03;
+    padding-left: 35px;
+  } 
+       
+  .intro {
+    text-align: center;
+    color: #5c0c03;
+    padding-left: 35px;
+ 
+    
+  }
+
+  .alpha {
+    color: hsla(34, 100%, 50%, 0.7);
+  }
+  .Josefin {
+    text-align: center;
+    background-color: #CD5C5C;
+    font-size: 35px;
+    color:antiquewhite;
+    padding-left: 35px;
+    font-family: "Josefin Sans", serif;
+
+    
+  }
+
+  .Anton {
+    text-align: center;
+    background-color: #CD5C5C;
+    font-size: 35px;
+    color:antiquewhite;
+    padding-left: 35px;
+    font-family: "Anton", serif;
+    
+
+  }
+  .Lobster {
+    text-align: center;
+    background-color: #CD5C5C;
+    font-size: 35px;
+    color:antiquewhite;
+    padding-left: 35px;
+    font-family: "Lobster", serif;
+
+  }
+  .Dancing {
+    text-align: center;
+    background-color: #CD5C5C;
+    font-size: 35px;
+    color:antiquewhite;
+    padding-left: 35px;
+    font-family: "Dancing Script", serif;
+
+  }
+  .Kavoon {
+    text-align: center;
+    background-color: #CD5C5C;
+    font-size: 35px;
+    color:antiquewhite;
+    padding-left: 35px;
+    font-family: "Kavoon", serif;
+
+  }
+
+  .Orbitron{
+    text-align: center;
+    background-color: #CD5C5C;
+    font-size: 35px;
+    color:antiquewhite;
+    padding-left: 35px;
+    font-family: "Orbitron", serif;
+
+  }
+  .name{
+    font-size: 25px;
+    line-height: 0.1;
+    text-align: center;
+    color: #A52A2A;
+  
+  }
+
+  .button {
+    border: 2px solid #CD5C5C;
+    border-radius: 5px;
+    color: #F8F8F8;
+    text-shadow: 0 -4px #B22222;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px
+    rgba(255, 255, 255, 0.8) inset;
+    background: #FFA07A;
+    background: linear-gradient(#F08080, #FFC0CB);
+    text-shadow: 0 1px #CD5C5C;
+    text-decoration: none;
+    position: relative;
+    width: 200px;
+    height: 70px;
+    margin-left: 600px;
+    }
+
+    .button:hover {
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px
+        2px rgba(255, 255, 255, 0.4) inset;
+        background: #FFC0CB;
+        background: linear-gradient(#FFC0CB, #CD5C5C);
+        border-color: #8B0000;
+        }
+        
+        button:active {
+            margin-top: 2px;
+            margin-bottom: -2px;
+            box-shadow: 0px 2px 2px rgba(63, 63, 63, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0
+            2px 2px rgba(255, 255, 255, 0.4) inset;
+            background: #CD5C5C;
+            background: linear-gradient(#CD5C5C, #FFC0CB);
+            }
+
+     .yyy {
+        color:black ;
+     } 
+     .yyy:hover {
+        background: #CD5C5C;
+     }
+
+     .style {
+        border: 1px solid;
+        max-width: 100 px;
+        max-height: 150px;
+        margin-left: 600px;
+        margin-right: 550px;
+     }
+     
