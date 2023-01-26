@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Colors</title>
+  <link rel='stylesheet' href='./styles.css'>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kavoon&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1 class="colors">Colors</h1>
+        <p class="intro">Colors in CSS can be described in three different ways:</p>
+        
+            <div class="intro"><strong>Named colors</strong> — English words that describe colors, also called keyword
+                colors</div>
+            <div class="intro"><strong>RGB</strong> — numeric values that describe a mix of red, green, and blue</div>
+            <div class="intro"><strong>HSL</strong> — numeric values that describe a mix of hue, saturation, and
+                lightness</div>
+                <br>
+        <div class="inline">
+       
+            <div class="LightSalmon"><a class="link" href="https://www.w3schools.com/colors/colors_rgb.asp" target="_blank"> <strong>LightSalmon</strong> <br>
+                 HEX:#FFA07A <br>rgb(255, 160, 122)</a></div>
+            <div class="Salmon"><a class="link" href="https://www.w3schools.com/colors/colors_rgb.asp" target="_blank"> <strong>Salmon </strong><br> HEX:#FA8072<br>rgb(250, 128, 114)</a></div>
+            <div class="DarkSalmon"><a class="link" href="https://www.w3schools.com/colors/colors_rgb.asp" target="_blank"> <strong> DarkSalmon </strong> <br>HEX:#E9967A <br>rgb(233, 150, 122)</a></div>
+            <div class="LightCoral "><a class="link" href="https://www.w3schools.com/colors/colors_rgb.asp" target="_blank"><strong>LightCoral </strong><br>HEX:#F08080<br>rgb(240, 128, 128)</a></div>
+            <div class="IndianRed"><a class="link" href="https://www.w3schools.com/colors/colors_rgb.asp" target="_blank"> <strong>IndianRed </strong> <br>HEX:#CD5C5C<br>rgb(205, 92, 92)</a></div>
+            <div class="Crimson"><a class="link" href="https://www.w3schools.com/colors/colors_rgb.asp" target="_blank"> <strong>Crimson </strong><br>HEX:#DC143C<br>rgb(220, 20, 60)</a></div>
+            <div class="Red"><a class="link" href="https://www.w3schools.com/colors/colors_rgb.asp" target="_blank"> <strong> Red</strong> <br>HEX:#FF0000<br>rgb(255, 0, 0)</a></div>
+            <div class="FireBrick"><a class="link" href="https://www.w3schools.com/colors/colors_rgb.asp" target="_blank"><strong>FireBrick</strong> <br>HEX:#B22222<br>rgb(178, 34, 34)</a></div>
+            <div class="DarkRed "><a class="link" href="https://www.w3schools.com/colors/colors_rgb.asp" target="_blank"> <strong>DarkRed </strong><br>HEX:#8B0000<br>rgb(139, 0, 0)</a></div>
+           
+    </div>
+    <div>
+        <h2 class="intro">Opacity and Alpha</h2>
+        <p class="intro"> To use opacity in the HSL color scheme, use hsla instead of hsl, and four
+            values instead of three. For example:
+            <strong class="alpha">color: hsla(34, 100%, 50%, 0.7); </strong> <br>
+            The first three values work the same as hsl. The fourth value (which we have
+            not seen before) is the alpha. This last value is sometimes called opacity. <br> Alpha is a decimal number from zero to one. If alpha is zero, the color will be
+            completely transparent. If alpha is one, the color will be opaque. <br> The value for
+            half-transparent would be 0.5.
+        </p>
+        <p class="intro">
+            The RGB color scheme has a similar syntax for opacity, rgba.
+        </p>
+    </div>
+    <div><h1 class="colors">Fonts</h1>
+    <p class="intro">Web fonts allow you to express your unique style through a multitude of different fonts 
+        found on the web.
+        Free font services, like <strong class="yyy"><a class="yyy" href="https://fonts.google.com/">Google Fonts </a></strong> and <strong class="yyy"><a class="yyy" href="https://fonts.adobe.com/" >Adobe Fonts </a></strong>, <br> host fonts that you can link to from
+        your HTML document with a provided <link> element.</p>
+    </div>
+    <p class="intro">I chose a few fonts from <strong class="yyy"><a class="yyy" href="https://fonts.google.com/">Google Fonts </a></strong> for example.</p>
+    <div class="try">
+        <button class="button"><a href="https://fonts.google.com/specimen/Josefin+Sans?query=Josefin" target="_blank"><h3 class="name">Josefin Sans</h3></a></button>
+        <p class="Josefin">Imagination rules the world</p>
+        <p class="style">text-align: center;<br>
+            background-color: #CD5C5C;<br>
+            font-size: 35px;<br>
+            color:antiquewhite;<br>
+            padding-left: 35px;<br>
+            font-family: "Josefin Sans", serif;</p><br>
+    </div>
+    <div class="try">
+    <button class="button"> <a href="https://fonts.google.com/specimen/Anton?query=Anton" target="_blank"><h3 class="name">Anton</h3></a></button>
+        <p class="Anton">Imagination rules the world</p>
+        <p class="style">text-align: center;<br>
+            background-color: #CD5C5C;<br>
+            font-size: 35px;<br>
+            color:antiquewhite;<br>
+            padding-left: 35px;<br>
+            font-family: "Anton", serif;</p><br>
+    </div>
+    <div class="try">
+    <button class="button"><a href="https://fonts.google.com/specimen/Lobster?query=Lobster" target="_blank"><h3 class="name">Lobster</h3></a></button>
+        <p class="Lobster">Imagination rules the world</p>
+        <p class="style">text-align: center;<br>
+            background-color: #CD5C5C;<br>
+            font-size: 35px;<br>
+            color:antiquewhite;<br>
+            padding-left: 35px;<br>
+            font-family: "Lobster", serif;</p><br>
+    </div>
+    <div class="try">
+    <button class="button"><a href="https://fonts.google.com/specimen/Dancing+Script?query=Dancing" target="_blank"><h3 class="name">Dancing Script</h3></a></button>
+        <p class="Dancing">Imagination rules the world</p>
+        <p class="style">text-align: center;<br>
+            background-color: #CD5C5C;<br>
+            font-size: 35px;<br>
+            color:antiquewhite;<br>
+            padding-left: 35px;<br>
+            font-family: "Dancing Script", serif;</p><br>
+    </div>
+    <div class="try">
+    <button class="button"><a href="https://fonts.google.com/specimen/Kavoon?query=Kavoon" target="_blank"><h3 class="name">Kavoon</h3></a></button>
+        <p class="Kavoon">Imagination rules the world</p>
+        <p class="style">text-align: center;<br>
+            background-color: #CD5C5C;<br>
+            font-size: 35px;<br>
+            color:antiquewhite;<br>
+            padding-left: 35px;<br>
+            font-family: "Kavoon", serif;</p><br>
+    </div>
+    <div class="try">
+    <button class="button"><a href="https://fonts.google.com/specimen/Orbitron?query=Orbitron" target="_blank"><h3 class="name">Orbitron</h3></a></button>
+        <p class="Orbitron">Imagination rules the world</p>
+        <p class="style">text-align: center;<br>
+            background-color: #CD5C5C;<br>
+            font-size: 35px;<br>
+            color:antiquewhite;<br>
+            padding-left: 35px;<br>
+            font-family: "Orbitron", serif;</p><br>
+    </div>
+</body>
+</html>
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.wrapper {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  max-width: 75vw;
+}
+
+.midground, .foreground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  margin: 15vh 0 0 15vw;
+  padding: 0;
+  width: 35vw;
+  height: 59vh;
+}
+
+body {
+  background-color: #f7e0e0;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.try {
+    border: 3px solid black;
+}
+
+.LightSalmon {
+border-radius: 50%;
+background-color: #FFA07A;
+text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 100px;
+        margin-right: 900px;
+    
+    
+}
+
+
+
+.Salmon{
+    border-radius: 50%;
+    background-color: #FA8072;
+    text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 200px;
+        margin-right: 800px;
+}
+
+.DarkSalmon {
+    border-radius: 50%;
+background-color: #E9967A;
+text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 300px;
+        margin-right: 700px;
+}
+
+
+.LightCoral {
+    border-radius: 50%;
+    background-color: #F08080;
+    text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 400px;
+        margin-right: 600px;
+}
+
+.IndianRed {
+    border-radius: 50%;
+    background-color: #CD5C5C;
+    text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 500px;
+        margin-right: 500px;
+}
+
+
+.Crimson {
+    border-radius: 50%;
+    background-color: #DC143C;
+    text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 600px;
+        margin-right: 400px;
+}
+
+
+.Red{
+    border-radius: 50%;
+background-color: #FF0000;
+text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 700px;
+        margin-right: 300px;
+}
+
+
+.FireBrick {
+    border-radius: 50%;
+    background-color: #B22222;
+    text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 800px;
+        margin-right: 200px;
+}
+
+
+.DarkRed {
+    border-radius: 50%;
+    background-color: #8B0000;
+    text-align: center;
+    border: 1px solid;
+        min-width: 280px;
+        min-height: 65px;
+        margin-left: 900px;
+        margin-right: 100px;
+}
+
+.breadcrumb li {
+    display: flexbox;
+}
+
+li:hover {
+    background-color: whitesmoke;
+    color: rgb(234, 243, 243);
+}
+
+.link {
+    color: black;
+   
+    
+}
+.breadcrumb a {
+    display: inline;
+    }
+.breadcrumb .link {
+    display: inline;
+}
+
+a::after {
+    font-size: 8px;
+    vertical-align: super;
+    }
+
+  .colors {
+    text-align: center;
+    color:#5c0c03;
+    padding-left: 35px;
+  } 
+       
+  .intro {
+    text-align: center;
+    color: #5c0c03;
+    padding-left: 35px;
+ 
+    
+  }
+
+  .alpha {
+    color: hsla(34, 100%, 50%, 0.7);
+  }
+  .Josefin {
+    text-align: center;
+    background-color: #CD5C5C;
+    font-size: 35px;
+    color:antiquewhite;
+    padding-left: 35px;
+    font-family: "Josefin Sans", serif;
+
+    
+  }
+
+  .Anton {
+    text-align: center;
+    background-color: #CD5C5C;
+    font-size: 35px;
+    color:antiquewhite;
+    padding-left: 35px;
+    font-family: "Anton", serif;
+    
+
+  }
+  .Lobster {
+    text-align: center;
+    background-color: #CD5C5C;
+    font-size: 35px;
+    color:antiquewhite;
+    padding-left: 35px;
+    font-family: "Lobster", serif;
+
+  }
+  .Dancing {
+    text-align: center;
+    background-color: #CD5C5C;
+    font-size: 35px;
+    color:antiquewhite;
+    padding-left: 35px;
+    font-family: "Dancing Script", serif;
+
+  }
+  .Kavoon {
+    text-align: center;
+    background-color: #CD5C5C;
+    font-size: 35px;
+    color:antiquewhite;
+    padding-left: 35px;
+    font-family: "Kavoon", serif;
+
+  }
+
+  .Orbitron{
+    text-align: center;
+    background-color: #CD5C5C;
+    font-size: 35px;
+    color:antiquewhite;
+    padding-left: 35px;
+    font-family: "Orbitron", serif;
+
+  }
+  .name{
+    font-size: 25px;
+    line-height: 0.1;
+    text-align: center;
+    color: #A52A2A;
+  
+  }
+
+  .button {
+    border: 2px solid #CD5C5C;
+    border-radius: 5px;
+    color: #F8F8F8;
+    text-shadow: 0 -4px #B22222;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2), 0px -2px 2px rgba(255, 255, 255, 0.5) inset, 0 2px 2px
+    rgba(255, 255, 255, 0.8) inset;
+    background: #FFA07A;
+    background: linear-gradient(#F08080, #FFC0CB);
+    text-shadow: 0 1px #CD5C5C;
+    text-decoration: none;
+    position: relative;
+    width: 200px;
+    height: 70px;
+    margin-left: 600px;
+    }
+
+    .button:hover {
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0 2px
+        2px rgba(255, 255, 255, 0.4) inset;
+        background: #FFC0CB;
+        background: linear-gradient(#FFC0CB, #CD5C5C);
+        border-color: #8B0000;
+        }
+        
+        button:active {
+            margin-top: 2px;
+            margin-bottom: -2px;
+            box-shadow: 0px 2px 2px rgba(63, 63, 63, 0.1), 0px -2px 2px rgba(255, 255, 255, 0.25) inset, 0
+            2px 2px rgba(255, 255, 255, 0.4) inset;
+            background: #CD5C5C;
+            background: linear-gradient(#CD5C5C, #FFC0CB);
+            }
+
+     .yyy {
+        color:black ;
+     } 
+     .yyy:hover {
+        background: #CD5C5C;
+     }
+
+     .style {
+        border: 1px solid;
+        max-width: 100 px;
+        max-height: 150px;
+        margin-left: 600px;
+        margin-right: 550px;
+     }
+     
